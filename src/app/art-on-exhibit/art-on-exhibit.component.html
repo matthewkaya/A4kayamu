@@ -1,0 +1,25 @@
+<div class="wrapper">
+    <table width="95%">
+        <tr>
+            <th [ngStyle]="{backgroundColor:'blue', color:'white'}" width="40%">Title </th>
+            <th [ngStyle]="{backgroundColor:'gray', color:'white'}" width="40%">Creator </th>
+            <th [ngStyle]="{backgroundColor:'green', color:'white'}" width="20%">Creation Date </th>
+
+        </tr>
+
+        <tr *ngFor="let art of artDetailsIn ">
+            <td [ngStyle]="{backgroundColor:'lightblue'}">
+                <a href="{{art.url}}" target="_blank">
+                    <p> {{art.title}}</p>
+                </a>
+            </td>
+            <td [ngStyle]="{backgroundColor:'lightgray'}">
+                <p>{{art.creator}}</p>
+            </td>
+            <td [ngStyle]="{backgroundColor:'lightgreen'}">
+                <p>{{art.creation_date}}</p>
+            </td>
+        </tr>
+
+    </table>
+</div>

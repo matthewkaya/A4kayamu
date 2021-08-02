@@ -1,1 +1,66 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.tableBody {
+    text-align: left;
+}
+
+h3 {
+    color: white;
+    background-color: blue;
+    font-style: italic;
+    text-align: center;
+}
+
+tr:hover {
+    color: red;
+    text-indent: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+td {
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    text-align: center;
+    font-size: 16px;
+    background-color: blueviolet;
+    color: white;
+}
+
+a {
+    color: black;
+    text-align: left;
+    font-size: 14px;
+}
+
+a:hover {
+    color: red;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    text-indent: 0px;
+}
+
+table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    ;
+    box-shadow: 5px 10px #888888;
+}

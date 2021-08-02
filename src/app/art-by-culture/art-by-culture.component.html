@@ -1,0 +1,11 @@
+<div class="wrapper">
+
+    <div class="buttonDiv">
+        <button mat-raised-button color="primary" *ngFor="let city of fitredcultureFeatured" (click)="displayFiltredData(city)" matTooltip="Shows art cultures of {{city}}">{{city}}</button>
+    </div>
+
+    <div class="outPutDiv">
+        <p [innerHTML]="outPutHTML"></p>
+    </div>
+
+</div>

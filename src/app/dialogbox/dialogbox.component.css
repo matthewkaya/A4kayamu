@@ -1,0 +1,17 @@
+.studentDeatilDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailDiv {
+    margin: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+.actionDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

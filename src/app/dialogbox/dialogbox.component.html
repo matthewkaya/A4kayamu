@@ -1,0 +1,32 @@
+<section [ngStyle]="{backgroundColor: 'red', color:'white', margin:'-5px -0.5px 15px -0.5px', textAlign:'center'}">
+    <h3 mat-dialog-title>Student Data</h3>
+    <div mat-dialog-content class="studentDeatilDiv">
+        <div class="detailDiv">
+            <img src="{{data.A4Photo}}" width="100px" />
+        </div>
+        <div class="detailDiv">
+            <table>
+                <tr>
+                    <td><strong>ID:</strong></td>
+                    <td>{{data.A4ID}}</td>
+                </tr>
+                <tr>
+                    <td><strong>Name:</strong></td>
+                    <td>{{data.A4Name}}</td>
+                </tr>
+                <tr>
+                    <td><strong>email:</strong></td>
+                    <td>{{data.A4Email}}</td>
+                </tr>
+                <tr>
+                    <td><strong>L. Name:</strong></td>
+                    <td>{{data.A4Login}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div mat-dialog-actions [ngClass]="{actionDiv:'true'}">
+        <button mat-raised-button (click)="onOK()">OK</button>
+    </div>
+</section>
