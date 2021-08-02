@@ -22,7 +22,7 @@ import { DialogboxComponent } from './dialogbox/dialogbox.component';
     DialogboxComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     FormsModule,
     HeadfootModule,
